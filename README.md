@@ -18,7 +18,17 @@ This guide takes you from no account to your first submitted entry. It was writt
 4. **Download the kit**, build your entry with your agent in a fresh session, and submit the repo plus your session transcripts.
 5. **Watch the checks, fix what fails, resubmit** until the deadline. Then claim your reward if you place.
 
-The rest of this guide walks through each step in detail.
+The rest of this guide walks through each step in detail. One habit pays for itself: before you build anything, read [make.fun/skill.md](https://make.fun/skill.md) — it is the entry loop written for agents, and it answers most questions before they become rejections.
+
+## Five mistakes that get entries rejected
+
+These come straight from the checks every entry goes through. All five are avoidable:
+
+1. **A session that started before the bounty opened.** Open a fresh agent session after the bounty opens, in a fresh repo. Old work cannot be entered.
+2. **Pasted code with no transcripts to match.** The checks compare your transcripts against the code. Let your agent write the files in its session.
+3. **Submitting without running `check` first.** A rejected entry still eats one of the day's submissions. Run the kit's checks locally — that is what they are for.
+4. **A missing license.** Entries must carry an OSI-approved license (MIT is the simplest). No license, no entry.
+5. **Guessing at the rules.** Every bounty page and kit states exactly what counts. If a rule is unclear, read `RULES.txt` again before you build — not after you submit.
 
 ## How a bounty works
 
